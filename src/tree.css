@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url(./bg2.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul{
+  margin-top: 200px;
+}
+
+li::selection{
+  background-color: white;
+  color: green;
+}
+
+ul > li {
+  list-style: none;
+  font-size: 40px;
+  line-height: 34px;
+  color: white;
+}
+
+.star {
+  color: green;
+}
+
+.star::selection{
+  background-color: white;
+  color: red;
+}
+
+.firstStar {
+  color: gold;
+  font-size: 100px;
+}
+
+.firstStar::selection{
+  background-color: white;
+  color: gold;
+}
